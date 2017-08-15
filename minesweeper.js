@@ -18,7 +18,7 @@ function createBoard(){
       { row: 0, col: 2, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 0, col: 3, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 1, col: 0, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
-      { row: 1, col: 1, isMine: true, isMarked: false, hidden: true, surroundingMines:0 },
+      { row: 1, col: 1, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 1, col: 2, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 1, col: 3, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 2, col: 0, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
@@ -26,7 +26,7 @@ function createBoard(){
       { row: 2, col: 2, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 2, col: 3, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 3, col: 0, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
-      { row: 3, col: 1, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
+      { row: 3, col: 1, isMine: true, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 3, col: 2, isMine: false, isMarked: false, hidden: true, surroundingMines:0 },
       { row: 3, col: 3, isMine: false, isMarked: false, hidden: true, surroundingMines:0 }
     ]
